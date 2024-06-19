@@ -1,0 +1,283 @@
+{
+    "mainScreen": {
+        "btnAdd": "Коментувати",
+        "sortTitle": "Сортувати",
+        "sortBtn1": "Ім'я",
+        "sortBtn2": "Пошта",
+        "sortBtn3": "Дата",
+        "paginationBtn1": "Попередня",
+        "paginationBtn2": "Наступна"
+    },
+    "commentItem": {
+        "btnReply": "Відповісти",
+        "btnShowReply1": "Показати відповіді",
+        "btnShowReply2": "Сховати відповіді",
+        "btnDownload": "Завантажити Файл",
+        "btnShowFile1": "Показати Файл",
+        "btnShowFile2": "Сховати Файл"
+    },
+    "commentForm": {
+        "avatarBtn": "Обрати Фото",
+        "name": "Імʼя",
+        "nameRule": "Числа і Літери",
+        "namePlaceholder": "Введіть імʼя",
+        "email": "Пошта",
+        "emailPlaceholder": "Введіть пошту",
+        "emailRule": "Формат Email",
+        "homepagePlaceholder": "Введіть посилання",
+        "homepage": "Посилання",
+        "homepageRule": "Формат Посилання",
+        "btnDownload": "Завантажити Файл",
+        "btnSubmit": "Підтвердити",
+        "btnCancel": "Відмінити"
+    },
+    "accountDetails": {
+        "accessLevel": "Рівень доступа:",
+        "email": "Електронна пошта:",
+        "created": "Створений:",
+        "work": "Робота",
+        "contactInformation": "Контактна інформація",
+        "phone": "Телефон:",
+        "address": "Адрес:",
+        "personalEmail": "Особиста електронна пошта",
+        "website": "Вебсайт:",
+        "skills": "Навички",
+        "basicInformation": "Загальна інформація",
+        "birthday": "День народження:",
+        "gender": "Стать:"
+
+    },
+    "login": {
+        "message": "Вхід до аккаунту",
+        "login": "Введить логін",
+        "password": "Введить пароль",
+        "loginBtn": "Увійти",
+        "loginError": "Користувача не знайдено",
+        "rememberMe": "Запам'ятати мене"
+    },
+    "recipe": {
+        "title": "Рецепт"
+    },
+    "message": {
+        "title": "Повідомлення"
+    },
+    "controls": {
+        "title": "Керування",
+        "start": "Старт",
+        "stop": "Стоп"
+    },
+    "transport": {
+        "title": "Транспорт"
+    },
+    "header": {
+        "selectLanguage": "Вибрати мову",
+        "desktop": "Робочий стіл",
+        "dryer": "Сушарка",
+        "transport": "Транспорт",
+        "settings": "Налаштування",
+        "help": "Довідка"
+    },
+    "dryer" : {
+        "title": "Сушарка"
+    },
+    "popups": {
+        "fanAspiration": {
+            "title": "Вентилятор аспірації",
+            "general": {
+                "title": "Загальні",
+                "fan": "Вентилятор",
+                "electricity": "Живлення",
+                "vibrationSensor": "Датчик вібрації",
+                "working": "В роботі",
+                "enabled": "Увімкнено",
+                "frequency": "Частота, Гц",
+                "apply": "Застосувати",
+                "powerInRepair": "Живлення в ремонт",
+                "vibrationSensorInRepair": "Датчик вібрації в ремонт",
+                "current": "Струм",
+                "currentValue": "А",
+                "rate": "Обірти",
+                "rateValue": "Об/хв",
+                "voltage": "Напруга",
+                "voltageValue": "В",
+                "power": "Потужність",
+                "powerValue": "кВт",
+                "vibration": "Вібрація",
+                "vibrationValue": "мм/с"
+            },
+            "reference": {
+                "title": "Справка"
+            }
+        },
+        "fanRecuperation": {
+            "title": "Вентилятор рекуперації",
+            "general": {
+                "title": "Загальні",
+                "fan": "Вентилятор",
+                "electricity": "Живлення",
+                "vibrationSensor": "Датчик вібрації",
+                "working": "В роботі",
+                "enabled": "Увімкнено",
+                "frequency": "Частота, Гц",
+                "apply": "Застосувати",
+                "powerInRepair": "Живлення в ремонт",
+                "vibrationSensorInRepair": "Датчик вібрації в ремонт",
+                "current": "Струм",
+                "currentValue": "А",
+                "rate": "Обірти",
+                "rateValue": "Об/хв",
+                "voltage": "Напруга",
+                "voltageValue": "В",
+                "power": "Потужність",
+                "powerValue": "кВт",
+                "vibration": "Вібрація",
+                "vibrationValue": "мм/с"
+            },
+            "reference": {
+                "title": "Справка"
+            }
+        },
+        "loadHopper": {
+            "title": "Вантажний бункер",
+            "general": {
+                "title": "Загальні",
+                "stateLevel": "Стан рівня",
+                "working": "В роботі",
+                "waiting": "В очікуванні",
+                "gate": "Засувка",
+                "gateInRepair": "Засувка в ремонт",
+                "amountOfUnloads": "Кількість вивантажень"
+            },
+            "reference": {
+                "title": "Справка"
+            }
+        },
+        "unloadHopper": {
+            "title": "Вивантажний бункер",
+            "general": {
+                "title": "Загальні",
+                "stateLevel": "Стан рівня",
+                "working": "В роботі",
+                "waiting": "В очікуванні",
+                "gate": "Засувка",
+                "gateInRepair": "Засувка в ремонт",
+                "amountOfUnloads": "Кількість вивантажень"
+            },
+            "reference": {
+                "title": "Справка"
+            }
+        },
+        "burner": {
+            "title": "Пальник",
+            "general": {
+                "title": "Загальні",
+                "burner": "Пальник",
+                "working": "В роботі",
+                "power": "Потужність, %",
+                "apply": "Застосувати",
+                "powerReductionDelayTime": "Час затримки зменшення потужності, с ",
+                "powerIncreaseDelayTime": "Час затримки збільшення потужності, с",
+                "emergency": "Аварія",
+                "technicalStop": "Технічна зупинка",
+                "currentPower": "Поточна потужність"
+            },
+            "reference": {
+                "title": "Справка"
+            }
+        },
+        "gate": {
+            "aspirationTitle": "Засувка вентилятора аспірації",
+            "recuperationTitle": "Засувка вентилятора рекуперації",
+            "airUpLeftTitle": "Засувка верхня ліва",
+            "airUpRightTitle": "Засувка верхня права",
+            "airDownLeftTitle": "Засувка нижня ліва ",
+            "airDownRightTitle": "Засувка нижня права",
+            "general": {
+                "state": "Стан",
+                "opened": "Відкрито",
+                "gateInRepair": "Засувка в ремонт",
+                "gate": "Засувка"
+            },
+            "reference": {
+                "title": "Справка"
+            }
+        },
+        "recipeInfo": {
+            "name": "Назва",
+            "tempagent": "Температура агента",
+            "tempagentcritical": "Критична температура агента",
+            "tempgrain": "Температура зерна",
+            "tempgrainmax": "Максимальна температура зерна",
+            "tempgraincritical": "Критична температура зерна",
+            "maxfanasprate": "Максимальні оберти вентилятора аспірації",
+            "maxfanrecrate": "Максимальні оберти вентилятора рекуперації",
+            "timeunload": "Час вигрузки",
+            "timeunloaddelay": "Час затримки вигрузки",
+            "weight": "Вага"
+        },
+        "editRecipe": {
+            "name": "Назва",
+            "tempagent": "Температура агента",
+            "tempagentcritical": "Критична температура агента",
+            "tempgrain": "Температура зерна",
+            "tempgrainmax": "Максимальна температура зерна",
+            "tempgraincritical": "Критична температура зерна",
+            "maxfanasprate": "Максимальні оберти вентилятора аспірації",
+            "maxfanrecrate": "Максимальні оберти вентилятора рекуперації",
+            "timeunload": "Час вигрузки",
+            "timeunloaddelay": "Час затримки вигрузки",
+            "weight": "Вага",
+            "save": "Зберігти",
+            "cancel": "Відміна",
+            "seconds": "с",
+            "revolutions": "Об/хв",
+            "weightValue": "кг"
+        },
+        "addRecipe": {
+            "name": "Назва",
+            "nameValue": "Рис",
+            "tempagent": "Температура агента",
+            "tempagentcritical": "Критична температура агента",
+            "tempgrain": "Температура зерна",
+            "tempgrainmax": "Максимальна температура зерна",
+            "tempgraincritical": "Критична температура зерна",
+            "maxfanasprate": "Максимальні оберти вентилятора аспірації",
+            "maxfanrecrate": "Максимальні оберти вентилятора рекуперації",
+            "timeunload": "Час вигрузки",
+            "timeunloaddelay": "Час затримки вигрузки",
+            "weight": "Вага",
+            "save": "Зберігти",
+            "revolutions": "Об/хв",
+            "weightValue": "кг",
+            "cancel": "Відміна",
+            "seconds": "с"
+        },
+        "deleteRecipe": {
+            "title": "Ви дійсно бажаєте видалити",
+            "yes": "Так",
+            "no": "Ні"
+        },
+        "accessDenied": {
+            "title": "Ваш рівень доступу: ",
+            "lowLevel": "низький",
+            "middleLevel": "середній"
+        },
+        "controlsCard": {
+            "title": "Ви впевнені, що хочете підтвердити?",
+            "confirm": "Підтвердити",
+            "cancel": "Скасувати"
+        },        
+        "selectLanguage": {
+            "ukrainian": "Українська",
+            "english": "Англійська",
+            "german": "Німецька"
+        }
+    },
+    "help": {
+        "title": "Metro Global Pte Ltd",
+        "about": "Metro Global - міжнародна компанія з головним офісом в Сінгапурі, яка здійснює свою діяльність в Азійсько-Тихоокеанському регіоні, Європі, Близькому Сході та Північній Америці.",
+        "whatWeDo": "Ми - активна динамічна компанія, основні напрямки діяльності якої включають управління активами, послуги в галузі гостинності, закупівельні послуги, інформаційні технології та освіту в галузі гостинності.",
+        "version": "Версія: 0.0.1",
+        "copyright": "© 2023 Metro Global Pte Ltd. Усі права захищені."
+    }
+}

@@ -1,0 +1,282 @@
+{
+    "mainScreen": {
+        "btnAdd": "Add Comment",
+        "sortTitle": "Sort",
+        "sortBtn1": "Name",
+        "sortBtn2": "Email",
+        "sortBtn3": "Data",
+        "paginationBtn1": "Previous",
+        "paginationBtn2": "Next"
+    },
+    "commentItem": {
+        "btnReply": "Reply",
+        "btnShowReply1": "Show Replies",
+        "btnShowReply2": "Hide Replies",
+        "btnDownload": "Download File",
+        "btnShowFile1": "Show File",
+        "btnShowFile2": "Hide File"
+    },
+    "commentForm": {
+        "avatarBtn": "Pick Avatar",
+        "name": "Name",
+        "nameRule": "Nunbers and Letters",
+        "namePlaceholder": "Enter name",
+        "email": "Email",
+        "emailPlaceholder": "Enter email",
+        "emailRule": "Email Format",
+        "homepagePlaceholder": "Enter homepage",
+        "homepage": "Homepage",
+        "homepageRule": "Format Link",
+        "btnDownload": "Upload File",
+        "btnSubmit": "Submit",
+        "btnCancel": "Cancel"
+    },
+    "accountDetails": {
+        "accessLevel": "Access Level:",
+        "email": "Email:",
+        "created": "Created:",
+        "work": "Work",
+        "contactInformation": "Contact Information",
+        "phone": "Phone:",
+        "address": "Address:",
+        "personalEmail": "Personal Email",
+        "website": "Website",
+        "skills": "Skills",
+        "basicInformation": "Basic Information",
+        "birthday": "Birthday",
+        "gender": "Gender"
+    },    
+    "login": {
+        "message": "Login in",
+        "login": "Enter your login",
+        "password": "Enter your password",
+        "loginBtn": "Login",
+        "loginError": "User not found",
+        "rememberMe": "Remember me"
+    },    
+    "recipe": {
+        "title": "Recipe"
+    },
+    "message": {
+        "title": "Message"
+    },
+    "controls": {
+        "title": "Controls",
+        "start": "Start",
+        "stop": "Stop"
+    },
+    "transport": {
+        "title": "Transport"
+    },
+    "header": {
+        "selectLanguage": "Select a language",
+        "desktop": "Desktop",
+        "dryer": "Dryer",
+        "transport": "Transport",
+        "settings": "Settings",
+        "help": "Help"
+    },
+    "dryer" : {
+        "title": "Dryer"
+    },
+    "popups": {
+        "fanAspiration": {
+            "title": "Fan Aspiration",
+            "general": {
+                "title": "General",
+                "fan": "Fan",
+                "electricity": "Electricity",
+                "vibrationSensor": "Vibration Sensor",
+                "working": "Working",
+                "enabled": "Enabled",
+                "frequency": "Frequency, Hz",
+                "apply": "Apply",
+                "powerInRepair": "Power in Repair",
+                "vibrationSensorInRepair": "Vibration Sensor in Repair",
+                "current": "Current",
+                "currentValue": "A",
+                "rate": "Revolutions",
+                "rateValue": "Rev/min",
+                "voltage": "Voltage",
+                "voltageValue": "V",
+                "power": "Power",
+                "powerValue": "kW",
+                "vibration": "Vibration",
+                "vibrationValue": "mm/s"
+            },
+            "reference": {
+                "title": "Reference"
+            }
+        },
+        "fanRecuperation": {
+            "title": "Fan Recuperation",
+            "general": {
+                "title": "General",
+                "fan": "Fan",
+                "electricity": "Electricity",
+                "vibrationSensor": "Vibration Sensor",
+                "working": "Working",
+                "enabled": "Enabled",
+                "frequency": "Frequency, Hz",
+                "apply": "Apply",
+                "powerInRepair": "Power in Repair",
+                "vibrationSensorInRepair": "Vibration Sensor in Repair",
+                "current": "Current",
+                "currentValue": "A",
+                "rate": "Revolutions",
+                "rateValue": "Rev/min",
+                "voltage": "Voltage",
+                "voltageValue": "V",
+                "power": "Power",
+                "powerValue": "kW",
+                "vibration": "Vibration",
+                "vibrationValue": "mm/s"
+            },
+            "reference": {
+                "title": "Reference"
+            }
+        },
+        "loadHopper": {
+            "title": "Load Hopper",
+            "general": {
+                "title": "General",
+                "stateLevel": "State Level",
+                "working": "Working",
+                "waiting": "Waiting",
+                "gate": "Gate",
+                "gateInRepair": "Gate in Repair",
+                "amountOfUnloads": "Amount of Unloads"
+            },
+            "reference": {
+                "title": "Reference"
+            }
+        },
+        "unloadHopper": {
+            "title": "Unload Hopper",
+            "general": {
+                "title": "General",
+                "stateLevel": "State Level",
+                "working": "Working",
+                "waiting": "Waiting",
+                "gate": "Gate",
+                "gateInRepair": "Gate in Repair",
+                "amountOfUnloads": "Amount of Unloads"
+            },
+            "reference": {
+                "title": "Reference"
+            }
+        },
+        "burner": {
+            "title": "Burner",
+            "general": {
+                "title": "General",
+                "burner": "Burner",
+                "working": "Working",
+                "power": "Power, %",
+                "apply": "Apply",
+                "powerReductionDelayTime": "Power Reduction Delay Time, s",
+                "powerIncreaseDelayTime": "Power Increase Delay Time, s",
+                "emergency": "Emergency",
+                "technicalStop": "Technical Stop",
+                "currentPower": "Current Power"
+            },
+            "reference": {
+                "title": "Reference"
+            }
+        },
+        "gate": {
+            "aspirationTitle": "Aspiration Fan Gate",
+            "recuperationTitle": "Recuperation Fan Gate",
+            "airUpLeftTitle": "Upper Left Air Gate",
+            "airUpRightTitle": "Upper Right Air Gate",
+            "airDownLeftTitle": "Lower Left Air Gate",
+            "airDownRightTitle": "Lower Right Air Gate",
+            "general": {
+                "state": "State",
+                "opened": "Opened",
+                "gateInRepair": "Gate in Repair",
+                "gate": "Gate"
+            },
+            "reference": {
+                "title": "Reference"
+            }
+        },
+        "recipeInfo": {
+            "name": "Name",
+            "tempagent": "Agent Temperature",
+            "tempagentcritical": "Critical Agent Temperature",
+            "tempgrain": "Grain Temperature",
+            "tempgrainmax": "Maximum Grain Temperature",
+            "tempgraincritical": "Critical Grain Temperature",
+            "maxfanasprate": "Maximum Aspiration Fan Speed",
+            "maxfanrecrate": "Maximum Recuperation Fan Speed",
+            "timeunload": "Unload Time",
+            "timeunloaddelay": "Unload Delay Time",
+            "weight": "Weight"
+        },
+        "editRecipe": {
+            "name": "Name",
+            "tempagent": "Agent Temperature",
+            "tempagentcritical": "Critical Agent Temperature",
+            "tempgrain": "Grain Temperature",
+            "tempgrainmax": "Maximum Grain Temperature",
+            "tempgraincritical": "Critical Grain Temperature",
+            "maxfanasprate": "Maximum Aspiration Fan Speed",
+            "maxfanrecrate": "Maximum Recuperation Fan Speed",
+            "timeunload": "Unload Time",
+            "timeunloaddelay": "Unload Delay Time",
+            "weight": "Weight",
+            "save": "Save",
+            "cancel": "Cancel",
+            "seconds": "s",
+            "revolutions": "Rev/min",
+            "weightValue": "kg"
+        },
+        "addRecipe": {
+            "name": "Name",
+            "nameValue": "Rice",
+            "tempagent": "Agent Temperature",
+            "tempagentcritical": "Critical Agent Temperature",
+            "tempgrain": "Grain Temperature",
+            "tempgrainmax": "Maximum Grain Temperature",
+            "tempgraincritical": "Critical Grain Temperature",
+            "maxfanasprate": "Maximum Aspiration Fan Speed",
+            "maxfanrecrate": "Maximum Recuperation Fan Speed",
+            "timeunload": "Unload Time",
+            "timeunloaddelay": "Unload Delay Time",
+            "weight": "Weight",
+            "save": "Save",
+            "revolutions": "Rev/min",
+            "weightValue": "kg",
+            "cancel": "Cancel",
+            "seconds": "s"
+        },
+        "deleteRecipe": {
+            "title": "Are you sure you want to delete",
+            "yes": "Yes",
+            "no": "No"
+        },
+        "accessDenied": {
+            "title": "Your access level: ",
+            "lowLevel": "low",
+            "middleLevel": "middle"
+        },
+        "controlsCard": {
+            "title": "Are you sure you want to confirm?",
+            "confirm": "Confirm",
+            "cancel": "Cancel"
+        },        
+        "selectLanguage": {
+            "ukrainian": "Ukrainian",
+            "english": "English",
+            "german": "German"
+        }
+    },
+    "help": {
+        "title": "Metro Global Pte Ltd",
+        "about": "Metro Global is an international company headquartered in Singapore conducting operations throughout Asia Pacific, Europe, Middle East and North America.",
+        "whatWeDo": "We are an engaged dynamic company whose businesses include asset management, hospitality services, procurement services, information technology solutions and hospitality education.",
+        "version": "Version: 0.0.1",
+        "copyright": "© 2023 Metro Global Pte Ltd. All rights reserved."
+    }
+}

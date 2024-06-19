@@ -1,79 +1,84 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+## README
 
-# Getting Started
+### Опис проєкту
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Цей проєкт є додатком на React Native з функціональністю надсилання коментарів та вкладених файлів на сервер через WebSocket. Додаток також працює в режимі офлайн, зберігаючи коментарі до відновлення з'єднання. Крім того, додаток використовує геолокацію пристрою для отримання часу сходу та заходу сонця і динамічно застосовує відповідну тему.
 
-## Step 1: Start the Metro Server
+### Основні функції
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+1. **Надсилання коментарів**: Користувачі можуть надсилати коментарі з використанням HTML-тегів (`<a>`, `<code>`, `<i>`, `<strong>`).
+2. **Вкладені файли**: Можливість завантаження зображень та текстових файлів.
+3. **Офлайн режим**: Коментарі зберігаються та надсилаються на сервер при відновленні з'єднання.
+4. **Геолокація**: Отримання геолокації пристрою та використання даних для визначення часу сходу та заходу сонця.
+5. **Динамічна тема**: Додаток автоматично застосовує тему залежно від часу доби.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+### Встановлення та запуск
+
+#### Серверна частина
+(Запускається ОКРЕМО)
+1. Переконайтесь, що у вас встановлено Node.js.
+2. Перейдіть у директорію з сервером.
+3. Встановіть залежності:
 
 ```bash
-# using npm
+npm install
+```
+
+4. Запустіть сервер:
+
+```bash
+npm run start
+```
+
+#### Клієнтська частина (React Native)
+
+1. Переконайтесь, що у вас встановлено Node.js, React Native CLI та Android/iOS емулятор або підключений пристрій.
+2. Перейдіть у директорію з клієнтським додатком.
+3. Встановіть залежності:
+
+```bash
+npm install
+```
+
+4. Запустіть додаток:
+
+```bash
 npm start
-
-# OR using Yarn
-yarn start
 ```
 
-## Step 2: Start your Application
+5. Відкрийте додаток на емуляторі або пристрої:
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+   - Для iOS:
 
-### For Android
+     ```bash
+     npx react-native run-ios
+     ```
 
-```bash
-# using npm
-npm run android
+   - Для Android:
 
-# OR using Yarn
-yarn android
-```
+     ```bash
+     npx react-native run-android
+     ```
 
-### For iOS
+### Використання
 
-```bash
-# using npm
-npm run ios
+1. Заповніть поля форми: ім'я користувача, email та текст коментаря.
+2. За потреби, додайте вкладений файл (зображення або текстовий файл).
+3. Натисніть "Submit" для надсилання коментаря та файлу на сервер.
+4. У разі відсутності мережі коментарі будуть збережені та надіслані при відновленні з'єднання.
+5. Додаток автоматично визначає ваше місцезнаходження та час сходу/заходу сонця, застосовуючи відповідну тему.
 
-# OR using Yarn
-yarn ios
-```
+### Залежності
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+- React Native
+- @react-native-community/geolocation
+- @react-native-async-storage/async-storage
+- @react-native-community/netinfo
+- react-native-document-picker
+- react-native-fs
+- WebSocket
+...
+### Підтримка
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+Якщо у вас виникли запитання або проблеми, будь ласка, створіть issue у репозиторії або зв'яжіться з нами електронною поштою.
 
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
