@@ -11,13 +11,18 @@ import useWsockets from "./Wsockets";
 const Context = createContext();
 
 
-const GlobalStates = ({ children, ws }) => {
+const GlobalStates = ({ children }) => {
     const [theme, setTheme] = useState('light');
     const [wsState, setWsState] = useState(0);
     const [wsMessage, setWsMessage] = useState({});
     const [flag, setFlag] = useState(false);
 
-    const { wsSend } = useWsockets({ ws, setWsState, setWsMessage })
+    //Websocket
+    const { wsSend, ws } = useWsockets({
+        url: 'ws://localhost:3434',
+        setWsState,
+        setWsMessage,
+    });
 
     return (
         <Context.Provider
