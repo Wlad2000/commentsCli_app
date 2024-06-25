@@ -68,7 +68,6 @@ const MainScreen = ({ navigation }) => {
             const location = await getCurrentLocation();
             const { latitude, longitude } = location;
             const weatherData = await fetchWeather(latitude, longitude);
-
             if (weatherData) {
                 const now = new Date();
                 const todayIndex = weatherData.daily.time.findIndex(date => date === now.toISOString().split('T')[0]);
