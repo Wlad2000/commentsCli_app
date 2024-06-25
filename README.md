@@ -83,3 +83,50 @@ npm start
 
 Якщо у вас виникли запитання або проблеми, будь ласка, створіть issue у репозиторії або зв'яжіться з нами електронною поштою.
 
+## ПРИМІТКА
+ERROR IOS in CommentForm.jsx => No +[RCTConvert WKDataDetectorTypes:] function found - dataDetectorTypes prop problem.
+### FIX:
+create a file /node_modules/react-native-webview/apple/RCTConvert+WKDataDetectorTypes.h:
+   ```objc
+#import <WebKit/WebKit.h>
+
+#import <React/RCTConvert.h>
+
+#if TARGET_OS_IPHONE
+@interface RCTConvert (WKDataDetectorTypes)
+
++ (WKDataDetectorTypes)WKDataDetectorTypes:(id)json;
+
+@end
+#endif // TARGET_OS_IPHONE
+   ```
+create a file /node_modules/react-native-webview/apple/RCTConvert+WKDataDetectorTypes.m:
+   ```objc
+#import <WebKit/WebKit.h>
+
+#import <React/RCTConvert.h>
+
+#if TARGET_OS_IPHONE
+
+@implementation RCTConvert (WKDataDetectorTypes)
+
+RCT_MULTI_ENUM_CONVERTER(
+     WKDataDetectorTypes,
+     (@{
+       @"none" : @(WKDataDetectorTypeNone),
+       @"phoneNumber" : @(WKDataDetectorTypePhoneNumber),
+       @"link" : @(WKDataDetectorTypeLink),
+       @"address" : @(WKDataDetectorTypeAddress),
+       @"calendarEvent" : @(WKDataDetectorTypeCalendarEvent),
+       @"trackingNumber" : @(WKDataDetectorTypeTrackingNumber),
+       @"flightNumber" : @(WKDataDetectorTypeFlightNumber),
+       @"lookupSuggestion" : @(WKDataDetectorTypeLookupSuggestion),
+       @"all" : @(WKDataDetectorTypeAll),
+     }),
+     WKDataDetectorTypeNone,
+     unsignedLongLongValue)
+
+@end
+
+#endif // TARGET_OS_IPHONE
+  ```
